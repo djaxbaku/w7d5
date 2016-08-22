@@ -1,0 +1,242 @@
+
+
+body{
+	transition: 1s linear;
+	
+	overflow-x: hidden !important;
+
+	font-family: 'Lato';
+	margin:0 auto;
+	padding:0;
+	background-image: url(../img/background.jpg) ;
+	background-size: cover;
+
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+
+.scrolltopbutton{
+	
+	button{
+		opacity: 0.5;
+		padding:20px;
+		background-color: black;
+		position: fixed;
+    	right: 20px;
+    	bottom: 20px;
+    	border: none;
+    	color: white;
+	}
+	button:hover{
+		opacity: 1;
+	}
+}
+#preloader {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#fff; /* change if the mask should have another color then white */
+    z-index:99; /* makes sure it stays on top */
+}
+
+#status {
+    width:200px;
+    height:200px;
+    position:absolute;
+    left:50%; /* centers the loading animation horizontally one the screen */
+    top:50%; /* centers the loading animation vertically one the screen */
+    background-image:url(../img/preloader.gif); /* path to your loading animation */
+    background-repeat:no-repeat;
+    background-position:center;
+    margin:-100px 0 0 -100px; /* is width and height divided by two */
+}
+
+.header{ 
+	height:740px;
+	.navbar-default{
+		background: none !important; 
+		border:none;
+		color: white ;
+
+	}
+	.mainMenu{
+		height: 66px;
+		
+	}
+	.navbar-brand{
+		font-size: 33px;
+		font-weight: lighter;
+		color: white;
+		span{
+			color: #2BA9F5;
+		}
+		
+
+	}
+	.navbar-brand{
+		margin-top: 5px;
+			color: white !important;
+		}
+	li a{
+		transition: 0.1s all linear;
+		color: white !important;
+		font-size: 14px;
+		font-weight: lighter;
+		padding-bottom: 10px;
+
+	}
+	.active a{
+		background: none !important;
+		border-bottom: 2px solid #2BA9F5;
+		color: #2BA9F5 !important;
+
+	}
+	.navbar-nav{
+		margin-left: 30px;
+		margin-top: 10px;
+		line-height:66px;
+	}
+	.navbar-nav a:hover{
+				color: #2BA9F5 !important;
+	}
+	.navbar-right li:last-child a{
+		padding: 10px 25px;
+		margin-top: 5px;
+		border: 1px solid #2BA9F5;
+		border-radius:5px;
+		color: #2BA9F5 !important;
+		transition: 0.1s all linear;
+	}
+	.navbar-right li:last-child a:hover{
+		background-color: #2BA9F5;
+		color: white !important;
+	}
+	
+	.text{
+		margin-top: 200px;
+		h1{
+			font-size: 58px;
+			letter-spacing: 1px;
+			color: white;
+			font-weight: lighter;
+		}
+		p{	
+			color: white;
+			font-size: 24px;
+			font-weight: lighter;
+			margin-bottom: 33px;
+			margin-top: 20px;
+		}
+		span{
+			color: #2BA9F5;
+		}
+	}
+		.buttons{
+			
+			color: white;
+			button{ 
+				background : #2BA9F5;
+				margin: 0px 7px;
+				padding: 16px 50px;
+				border:none;
+				border-radius:5px;
+	 		}
+			button:last-child{
+				background:none;
+				border: 1px solid white;
+				padding: 15px 25px;
+				transition: 0.1s all linear;
+			}
+			button:last-child:hover{
+				background: white;
+				color: #2BA9F5;
+			}
+		}}
+	.down{
+		ul{
+			background:#272727;
+			color: white;
+		}
+	
+		}
+	.down a:hover{
+		background-color:#272727; 
+	}
+
+}
+.dropdown-toggle:focus{background-color: #272727 !important;}
+.dropdown-toggle:hover{
+	border-top: 3px solid #2BA9F5;
+	background-color: #272727 !important;
+
+}
+.dropdown-menu li a{
+	padding: 11px 0px;
+}
+.navbar-toggle{
+		border:none !important;
+		background-color: none;
+		color: white !important;
+			}
+	.navbar-toggle:hover{
+		background-color: none !important;
+	}
+	
+.clients{ 
+	background: #F0F0F0;
+	overflow: hidden;
+	color:white;
+	
+	img{ transition:0.35s ease-out;
+		transform: translateY(80px);
+		margin: 20px;
+
+	}
+	img:nth-child(odd){
+		ransition:0.35s ease-out;
+		transform: translateY(-80px);
+	}
+
+	
+}
+.activeimages{
+		transform: translateY(0px) !important;
+	}
+.fixedmenu{
+	height:80px;
+	z-index:999;
+	position:fixed !important;
+	color:black !important;
+	left:50px;
+	background: white;
+
+	.navbar-brand{
+		font-size: 33px;
+		font-weight: lighter;
+		color: black !important;
+		span{
+			color: #2BA9F5;
+		}
+		
+
+	}
+	.navbar-brand{
+		margin-top: 5px;
+			color: black !important;
+		}
+	li a{
+		transition: 0.1s all linear;
+		color: black !important;
+		font-size: 14px;
+		font-weight: lighter;
+		padding-bottom: 10px;
+
+	}
+
+}	
+.menu{
+	transition: 0.3s linear;
+
+	}
